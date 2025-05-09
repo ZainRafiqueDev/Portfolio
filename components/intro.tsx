@@ -134,8 +134,8 @@ export default function Intro() {
                   transition={{ type: "spring", stiffness: 300, damping: 10 }}
                 >
                   <Image
-                    src="/dp.jpg" // Ensure this image exists in your public folder
-                    alt="Abdul Aziz"
+                    src="/dp.png" // Ensure this image exists in your public folder
+                    alt="Zain Rafique"
                     width="192"
                     height="192"
                     quality="95"
@@ -187,7 +187,7 @@ export default function Intro() {
           >
             Hi, I'm{" "}
             <span className="inline-block relative">
-              <span className="relative z-10">Abdul Aziz</span>
+              <span className="relative z-10">ZainRafique</span>
               <motion.span 
                 className="absolute bottom-0 left-0 w-full h-3 bg-blue-200 dark:bg-blue-800/50 -z-10"
                 initial={{ width: 0 }}
@@ -304,7 +304,7 @@ export default function Intro() {
             >
               <a
                 className="flex items-center justify-center w-12 h-12 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full shadow-md border border-blue-200 dark:border-blue-800"
-                href="https://linkedin.com/in/connect2abdulaziz"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn Profile"
@@ -321,7 +321,7 @@ export default function Intro() {
             >
               <a
                 className="flex items-center justify-center w-12 h-12 bg-gray-100 dark:bg-gray-800/50 text-gray-700 dark:text-gray-300 rounded-full shadow-md border border-gray-200 dark:border-gray-700"
-                href="https://github.com/connect2abdulaziz"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub Profile"
